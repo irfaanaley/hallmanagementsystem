@@ -1,0 +1,6 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Grand Hall Booking System</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/lucide@0.383.0/dist/umd/lucide.min.js"></script>
+<link rel="stylesheet" href="style.css"></head><body>
+<nav id="side"></nav><main><div class="top"><button class="btn o s burger" onclick="side.classList.toggle('open')"><i data-lucide="menu"></i></button><input placeholder="Search anything…" id="gs" onkeydown="if(event.key==='Enter'){go('bookings');ui.q=this.value;draw()}"><span style="margin-left:auto;display:flex;gap:14px;align-items:center"><i data-lucide="bell"></i><b id="who">Admin</b></span></div><div class="wrap" id="app"></div></main><div id="modal"></div><div id="login" style="display:none"></div>
+<script src="script.js"></script></body></html>
